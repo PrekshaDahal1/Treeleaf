@@ -16,6 +16,7 @@
 		6AF8AA2E2B3E82A8008FC93E /* TreeLeafTechnologiesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF8AA2D2B3E82A8008FC93E /* TreeLeafTechnologiesUITests.swift */; };
 		6AF8AA302B3E82A8008FC93E /* TreeLeafTechnologiesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF8AA2F2B3E82A8008FC93E /* TreeLeafTechnologiesUITestsLaunchTests.swift */; };
 		6AF8AA402B3E8327008FC93E /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF8AA3F2B3E8327008FC93E /* Colors.swift */; };
+		6AF8AA452B3E8BEB008FC93E /* JokesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF8AA442B3E8BEB008FC93E /* JokesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		6AF8AA2D2B3E82A8008FC93E /* TreeLeafTechnologiesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeLeafTechnologiesUITests.swift; sourceTree = "<group>"; };
 		6AF8AA2F2B3E82A8008FC93E /* TreeLeafTechnologiesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeLeafTechnologiesUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6AF8AA3F2B3E8327008FC93E /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		6AF8AA442B3E8BEB008FC93E /* JokesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		6AF8AA0B2B3E82A6008FC93E /* TreeLeafTechnologies */ = {
 			isa = PBXGroup;
 			children = (
+				6AF8AA432B3E8BD7008FC93E /* Task1 */,
 				6AF8AA3E2B3E831B008FC93E /* Utilities */,
 				6AF8AA0C2B3E82A6008FC93E /* AppDelegate.swift */,
 				6AF8AA0E2B3E82A6008FC93E /* SceneDelegate.swift */,
@@ -133,6 +136,14 @@
 				6AF8AA3F2B3E8327008FC93E /* Colors.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		6AF8AA432B3E8BD7008FC93E /* Task1 */ = {
+			isa = PBXGroup;
+			children = (
+				6AF8AA442B3E8BEB008FC93E /* JokesViewController.swift */,
+			);
+			path = Task1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +278,7 @@
 			files = (
 				6AF8AA112B3E82A6008FC93E /* ViewController.swift in Sources */,
 				6AF8AA402B3E8327008FC93E /* Colors.swift in Sources */,
+				6AF8AA452B3E8BEB008FC93E /* JokesViewController.swift in Sources */,
 				6AF8AA0D2B3E82A6008FC93E /* AppDelegate.swift in Sources */,
 				6AF8AA0F2B3E82A6008FC93E /* SceneDelegate.swift in Sources */,
 			);
