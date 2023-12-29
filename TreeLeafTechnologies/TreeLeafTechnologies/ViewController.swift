@@ -79,8 +79,9 @@ class ViewController: UIViewController {
     
     @objc func btnTask1Selected() {
         print("Umm")
-//        let newVC = T1ViewController()
-//        navigationController?.popViewController(animated: true)
+        let newVC = JokesViewController()
+        navigationController?.pushViewController(newVC, animated: true)
+            
     }
 
     
