@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6AF8AA0D2B3E82A6008FC93E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF8AA0C2B3E82A6008FC93E /* AppDelegate.swift */; };
+		6AF8AA0F2B3E82A6008FC93E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF8AA0E2B3E82A6008FC93E /* SceneDelegate.swift */; };
+		6AF8AA112B3E82A6008FC93E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF8AA102B3E82A6008FC93E /* ViewController.swift */; };
+		6AF8AA162B3E82A8008FC93E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AF8AA152B3E82A8008FC93E /* Assets.xcassets */; };
+		6AF8AA192B3E82A8008FC93E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AF8AA172B3E82A8008FC93E /* LaunchScreen.storyboard */; };
+		6AF8AA242B3E82A8008FC93E /* TreeLeafTechnologiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF8AA232B3E82A8008FC93E /* TreeLeafTechnologiesTests.swift */; };
+		6AF8AA2E2B3E82A8008FC93E /* TreeLeafTechnologiesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF8AA2D2B3E82A8008FC93E /* TreeLeafTechnologiesUITests.swift */; };
+		6AF8AA302B3E82A8008FC93E /* TreeLeafTechnologiesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF8AA2F2B3E82A8008FC93E /* TreeLeafTechnologiesUITestsLaunchTests.swift */; };
+		6AF8AA402B3E8327008FC93E /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF8AA3F2B3E8327008FC93E /* Colors.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6AF8AA202B3E82A8008FC93E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AF8AA012B3E82A6008FC93E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AF8AA082B3E82A6008FC93E;
+			remoteInfo = TreeLeafTechnologies;
+		};
+		6AF8AA2A2B3E82A8008FC93E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AF8AA012B3E82A6008FC93E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AF8AA082B3E82A6008FC93E;
+			remoteInfo = TreeLeafTechnologies;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6AF8AA092B3E82A6008FC93E /* TreeLeafTechnologies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TreeLeafTechnologies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AF8AA0C2B3E82A6008FC93E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6AF8AA0E2B3E82A6008FC93E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6AF8AA102B3E82A6008FC93E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6AF8AA152B3E82A8008FC93E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6AF8AA182B3E82A8008FC93E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6AF8AA1A2B3E82A8008FC93E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AF8AA1F2B3E82A8008FC93E /* TreeLeafTechnologiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TreeLeafTechnologiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AF8AA232B3E82A8008FC93E /* TreeLeafTechnologiesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeLeafTechnologiesTests.swift; sourceTree = "<group>"; };
+		6AF8AA292B3E82A8008FC93E /* TreeLeafTechnologiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TreeLeafTechnologiesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AF8AA2D2B3E82A8008FC93E /* TreeLeafTechnologiesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeLeafTechnologiesUITests.swift; sourceTree = "<group>"; };
+		6AF8AA2F2B3E82A8008FC93E /* TreeLeafTechnologiesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeLeafTechnologiesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6AF8AA3F2B3E8327008FC93E /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AF8AA062B3E82A6008FC93E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AF8AA1C2B3E82A8008FC93E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AF8AA262B3E82A8008FC93E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6AF8AA002B3E82A6008FC93E = {
+			isa = PBXGroup;
+			children = (
+				6AF8AA0B2B3E82A6008FC93E /* TreeLeafTechnologies */,
+				6AF8AA222B3E82A8008FC93E /* TreeLeafTechnologiesTests */,
+				6AF8AA2C2B3E82A8008FC93E /* TreeLeafTechnologiesUITests */,
+				6AF8AA0A2B3E82A6008FC93E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6AF8AA0A2B3E82A6008FC93E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AF8AA092B3E82A6008FC93E /* TreeLeafTechnologies.app */,
+				6AF8AA1F2B3E82A8008FC93E /* TreeLeafTechnologiesTests.xctest */,
+				6AF8AA292B3E82A8008FC93E /* TreeLeafTechnologiesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AF8AA0B2B3E82A6008FC93E /* TreeLeafTechnologies */ = {
+			isa = PBXGroup;
+			children = (
+				6AF8AA3E2B3E831B008FC93E /* Utilities */,
+				6AF8AA0C2B3E82A6008FC93E /* AppDelegate.swift */,
+				6AF8AA0E2B3E82A6008FC93E /* SceneDelegate.swift */,
+				6AF8AA102B3E82A6008FC93E /* ViewController.swift */,
+				6AF8AA152B3E82A8008FC93E /* Assets.xcassets */,
+				6AF8AA172B3E82A8008FC93E /* LaunchScreen.storyboard */,
+				6AF8AA1A2B3E82A8008FC93E /* Info.plist */,
+			);
+			path = TreeLeafTechnologies;
+			sourceTree = "<group>";
+		};
+		6AF8AA222B3E82A8008FC93E /* TreeLeafTechnologiesTests */ = {
+			isa = PBXGroup;
+			children = (
+				6AF8AA232B3E82A8008FC93E /* TreeLeafTechnologiesTests.swift */,
+			);
+			path = TreeLeafTechnologiesTests;
+			sourceTree = "<group>";
+		};
+		6AF8AA2C2B3E82A8008FC93E /* TreeLeafTechnologiesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6AF8AA2D2B3E82A8008FC93E /* TreeLeafTechnologiesUITests.swift */,
+				6AF8AA2F2B3E82A8008FC93E /* TreeLeafTechnologiesUITestsLaunchTests.swift */,
+			);
+			path = TreeLeafTechnologiesUITests;
+			sourceTree = "<group>";
+		};
+		6AF8AA3E2B3E831B008FC93E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				6AF8AA3F2B3E8327008FC93E /* Colors.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AF8AA082B3E82A6008FC93E /* TreeLeafTechnologies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AF8AA332B3E82A8008FC93E /* Build configuration list for PBXNativeTarget "TreeLeafTechnologies" */;
+			buildPhases = (
+				6AF8AA052B3E82A6008FC93E /* Sources */,
+				6AF8AA062B3E82A6008FC93E /* Frameworks */,
+				6AF8AA072B3E82A6008FC93E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TreeLeafTechnologies;
+			productName = TreeLeafTechnologies;
+			productReference = 6AF8AA092B3E82A6008FC93E /* TreeLeafTechnologies.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6AF8AA1E2B3E82A8008FC93E /* TreeLeafTechnologiesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AF8AA362B3E82A8008FC93E /* Build configuration list for PBXNativeTarget "TreeLeafTechnologiesTests" */;
+			buildPhases = (
+				6AF8AA1B2B3E82A8008FC93E /* Sources */,
+				6AF8AA1C2B3E82A8008FC93E /* Frameworks */,
+				6AF8AA1D2B3E82A8008FC93E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AF8AA212B3E82A8008FC93E /* PBXTargetDependency */,
+			);
+			name = TreeLeafTechnologiesTests;
+			productName = TreeLeafTechnologiesTests;
+			productReference = 6AF8AA1F2B3E82A8008FC93E /* TreeLeafTechnologiesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6AF8AA282B3E82A8008FC93E /* TreeLeafTechnologiesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AF8AA392B3E82A8008FC93E /* Build configuration list for PBXNativeTarget "TreeLeafTechnologiesUITests" */;
+			buildPhases = (
+				6AF8AA252B3E82A8008FC93E /* Sources */,
+				6AF8AA262B3E82A8008FC93E /* Frameworks */,
+				6AF8AA272B3E82A8008FC93E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AF8AA2B2B3E82A8008FC93E /* PBXTargetDependency */,
+			);
+			name = TreeLeafTechnologiesUITests;
+			productName = TreeLeafTechnologiesUITests;
+			productReference = 6AF8AA292B3E82A8008FC93E /* TreeLeafTechnologiesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AF8AA012B3E82A6008FC93E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					6AF8AA082B3E82A6008FC93E = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					6AF8AA1E2B3E82A8008FC93E = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 6AF8AA082B3E82A6008FC93E;
+					};
+					6AF8AA282B3E82A8008FC93E = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 6AF8AA082B3E82A6008FC93E;
+					};
+				};
+			};
+			buildConfigurationList = 6AF8AA042B3E82A6008FC93E /* Build configuration list for PBXProject "TreeLeafTechnologies" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6AF8AA002B3E82A6008FC93E;
+			productRefGroup = 6AF8AA0A2B3E82A6008FC93E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AF8AA082B3E82A6008FC93E /* TreeLeafTechnologies */,
+				6AF8AA1E2B3E82A8008FC93E /* TreeLeafTechnologiesTests */,
+				6AF8AA282B3E82A8008FC93E /* TreeLeafTechnologiesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AF8AA072B3E82A6008FC93E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AF8AA192B3E82A8008FC93E /* LaunchScreen.storyboard in Resources */,
+				6AF8AA162B3E82A8008FC93E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AF8AA1D2B3E82A8008FC93E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AF8AA272B3E82A8008FC93E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AF8AA052B3E82A6008FC93E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AF8AA112B3E82A6008FC93E /* ViewController.swift in Sources */,
+				6AF8AA402B3E8327008FC93E /* Colors.swift in Sources */,
+				6AF8AA0D2B3E82A6008FC93E /* AppDelegate.swift in Sources */,
+				6AF8AA0F2B3E82A6008FC93E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AF8AA1B2B3E82A8008FC93E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AF8AA242B3E82A8008FC93E /* TreeLeafTechnologiesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AF8AA252B3E82A8008FC93E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AF8AA302B3E82A8008FC93E /* TreeLeafTechnologiesUITestsLaunchTests.swift in Sources */,
+				6AF8AA2E2B3E82A8008FC93E /* TreeLeafTechnologiesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6AF8AA212B3E82A8008FC93E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AF8AA082B3E82A6008FC93E /* TreeLeafTechnologies */;
+			targetProxy = 6AF8AA202B3E82A8008FC93E /* PBXContainerItemProxy */;
+		};
+		6AF8AA2B2B3E82A8008FC93E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AF8AA082B3E82A6008FC93E /* TreeLeafTechnologies */;
+			targetProxy = 6AF8AA2A2B3E82A8008FC93E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6AF8AA172B3E82A8008FC93E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AF8AA182B3E82A8008FC93E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6AF8AA312B3E82A8008FC93E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6AF8AA322B3E82A8008FC93E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6AF8AA342B3E82A8008FC93E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TreeLeafTechnologies/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = practice.TreeLeafTechnologies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6AF8AA352B3E82A8008FC93E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TreeLeafTechnologies/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = practice.TreeLeafTechnologies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6AF8AA372B3E82A8008FC93E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = practice.TreeLeafTechnologiesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TreeLeafTechnologies.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TreeLeafTechnologies";
+			};
+			name = Debug;
+		};
+		6AF8AA382B3E82A8008FC93E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = practice.TreeLeafTechnologiesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TreeLeafTechnologies.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TreeLeafTechnologies";
+			};
+			name = Release;
+		};
+		6AF8AA3A2B3E82A8008FC93E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = practice.TreeLeafTechnologiesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TreeLeafTechnologies;
+			};
+			name = Debug;
+		};
+		6AF8AA3B2B3E82A8008FC93E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = practice.TreeLeafTechnologiesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TreeLeafTechnologies;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AF8AA042B3E82A6008FC93E /* Build configuration list for PBXProject "TreeLeafTechnologies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AF8AA312B3E82A8008FC93E /* Debug */,
+				6AF8AA322B3E82A8008FC93E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AF8AA332B3E82A8008FC93E /* Build configuration list for PBXNativeTarget "TreeLeafTechnologies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AF8AA342B3E82A8008FC93E /* Debug */,
+				6AF8AA352B3E82A8008FC93E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AF8AA362B3E82A8008FC93E /* Build configuration list for PBXNativeTarget "TreeLeafTechnologiesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AF8AA372B3E82A8008FC93E /* Debug */,
+				6AF8AA382B3E82A8008FC93E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AF8AA392B3E82A8008FC93E /* Build configuration list for PBXNativeTarget "TreeLeafTechnologiesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AF8AA3A2B3E82A8008FC93E /* Debug */,
+				6AF8AA3B2B3E82A8008FC93E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6AF8AA012B3E82A6008FC93E /* Project object */;
+}
