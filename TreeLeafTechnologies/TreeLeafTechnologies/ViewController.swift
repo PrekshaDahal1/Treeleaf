@@ -98,6 +98,8 @@ class ViewController: UIViewController {
     
     @objc func btnTask5Selected() {
         print("Task 5")
+        let newVC = ProductViewController()
+        navigationController?.pushViewController(newVC, animated: true)
     }
 }
 
