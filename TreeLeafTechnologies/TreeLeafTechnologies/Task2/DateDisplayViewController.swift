@@ -10,7 +10,41 @@ import UIKit
 class DateDisplayViewController: UIViewController {
     
     var lblDate = ""
-    var lblDateRecords = [ "Mon-Day-Year" : "MM/DD/YY", "Day-Month-Yea" : "DD/MM/YY", "YY/MM/DD" : "Year-Mnth-Day", "MonthName-Day-Year" : "Month D, Yr", "Month-DayYear" : "M/D/YY", "Day-MonthYea" : "D/M/YY", "YearMontDay" : "YY/M/D", "onth-Day-Year" : "bM/bD/YY", "DayMonth-Year" : "bD/bM/YY", "YearMonthDay" : "YY/bM/bD", "Month-Day-Year" : "MMDDYY", "DayMonthYear" : "DDMMYY", "YearMonthDy" : "YYMMDD", "abbreviation-Day-Year" : "MonDDYY", "Day-MonthAbbreviation-Year" : "DDMonYY", "Year-Month abbreviation-Day" : "YYMonDD", "DayOfYear" : "day/YY", "Year-DayOfYear" : "YY/day", "Day-MonthName-Year" : "D Month, Yr", "Year-MonthName-Day" : "Yr, Month D", "MonthAbbreviationDayYear" : "Mon-DD-YYYY", "MonthAbbreviationYea" : "DD-Mon-YYYY", "YeaMonthAbbreviationDay" : "YYYYY-Mon-DD", "MonthAbbreviation" : "Mon DD, YYYY", "MohAbbreviationYea" : "DD Mon, YYYY", "YearMonthAbbreviationDay" : "YYYY, Mon DD"]
+    var lblDateRecords = [ "Month-Day-Year-With-leading-zeros" : "MM-dd-yyyy", 
+                            "Day-Month-Year-with-leading-zeros" : "dd-MM-yyyy",
+                            "Year-Month-Day-with-leading-zeros" : "yyyy-MM-dd",
+                            "Month-name-Day-Year-with-no-leading-zeros" : "MMMM d, yyyy",
+                            "Month name-Day-Year-with-no-leading-zeros" : "M-d-yyyy",
+                            "Day-Month-Year-with-no-leading-zeros" : "d-M-yyyy",
+                            "Year-Month-Day-with-no-leading-zeros" : "y-M-d",
+                            "Month-Day-Year-with-spaces-instead-of-leading-zeros" : "MMMM d yyyy",
+                            "Day-Month-Year-with-spaces-instead-of-leading-zeros" : "d MMMM y",
+                            "Year-Month-Day-with-spaces-instead-of-leading-zeros" : "yyyy/ M/d",
+                            "Month-Day-Year-with-no-separators" : "MMddyyyy",
+                            "Day-Month-Year-with-no-separators" : "dMMyyyy",
+                            "Year-Month-Day-with-no-separators" : "yyyyMMdd",
+                            "Day-Month-abbreviation-Year-with-leading-zeros" : "dd-MMM-yyyy",
+                            "Month-abbreviation-Day-Year-with-leading-zeros" : "MMM-dd-yyyy",
+                            "Year-Month abbreviation-Day-with-leading-zeros" : "yyyy-MMM-dd",
+                            "Day-of-year-(counting-consecutively-from-January-1)-Year" : "d-yyyy",
+                            "Year-Day-of-Year-(counting-consecutively-from-January-1—often-called-the-Julian-date-format)" : "yyyy-ddd",
+                            "Day-Month-name-Year" : "d-MMMM-yyyy",
+                            "Year-Month-name-Day" : "yyyy-MMMM-d",
+                            "Month-abbreviation-Day-with-leading-zeros-Year" : "MMM dd, yyyy",
+                            "Day-with-leading-zeros-Month-abbreviation-Year" : "dd MMM, yyyy",
+                            "Year-Month-abbreviation-Day-with-leading-zero" : "yyyy, MMM dd",
+                            "Month-abbreviation-Day-with-leading-zeros-Yar" : "MMM dd, yyyy",
+                            "Day-with-leading-zeros-Month-abbreviation-Yer" : "dd MMM, yyyy",
+                            "Year-Month-abbreviation-Day-with-leading-zeros" : "yyyy, MMM dd",
+                            "hexadecimal" : "%08X",
+                            "Format-type-1" : "MM/YY/dd",
+                            "Format-type-1-with-dashes" : "M-d-yyyy",
+                            "Format-type-1-with-backslashes" : "M/d/yy",
+                            "Format-type-1-with-a-four-digit-year" : "M/d/yyyy",
+                            "Format-type-B-with-a-four-digit-year" : "MMddyyyy",
+                            
+                           "4@CAD":"fr_CA"]
+    
     var lblFormattedDateRecords = [String: String]()
     
     lazy var lblPick: UILabel = {
@@ -107,9 +141,9 @@ class DateDisplayViewController: UIViewController {
     func autoLayoutForCollectionView() {
         view.addSubview(DateListCollection)
         NSLayoutConstraint.activate([
-            DateListCollection.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
+            DateListCollection.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 10),
             DateListCollection.topAnchor.constraint(equalTo: txtFieldDatePicker.bottomAnchor, constant: 20),
-            DateListCollection.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
+            DateListCollection.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -10),
             DateListCollection.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -20)
         ])
     }
@@ -128,7 +162,14 @@ class DateDisplayViewController: UIViewController {
         formatter.dateFormat = lblDateRecords[lblDateFormat]
         
         let formattedDateString = formatter.string(from: Date())
-        print(formattedDateString)
+    
+        if (lblDateFormat == "fr_CA") {
+            formatter.locale = Locale(identifier: "fr_CA")
+        }
+        
+        if (lblDateFormat == "hexadecimal") {
+            formatter.locale = Locale(identifier: "%08X")
+        }
         
         return formatter.string(from: date)
     }
@@ -150,14 +191,14 @@ class DateDisplayViewController: UIViewController {
             cell.layer.cornerRadius = 12
             cell.layer.borderColor = UIColor.black.cgColor
             cell.layer.borderWidth = 0.2
-            cell.layer.backgroundColor = UIColor(Color.gray).cgColor
+            cell.layer.backgroundColor = UIColor(Color.pink).cgColor
             cell.lblConvertedDate.text = array1[indexPath.row]
             cell.lblDateFormat.text = array2[indexPath.row]
             return cell
         }
         
         func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-            let cellWidth: CGFloat = 160.0
+            let cellWidth: CGFloat = 300.0
             let cellHeight: CGFloat = 100.0
             return CGSize(width: cellWidth, height: cellHeight)
         }
