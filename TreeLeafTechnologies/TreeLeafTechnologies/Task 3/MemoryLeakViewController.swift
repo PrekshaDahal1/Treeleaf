@@ -80,8 +80,8 @@ class MemoryLeakViewController: UIViewController {
     //MARK: - Memory Leak Implementation
         func memoryleak() {
             userInfo()
-            NotificationCenter.default.addObserver(forName: NSNotification.Name(rawValue: "called"), object: nil, queue: .main) { _ in
-                self.userInfo()
+            NotificationCenter.default.addObserver(forName: NSNotification.Name(rawValue: "called"), object: nil, queue: .main) { [weak self] (notification) in
+                self?.userInfo()
             }
         }
     //MARK: - Memory Deallocation
