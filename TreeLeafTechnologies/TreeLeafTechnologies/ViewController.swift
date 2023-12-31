@@ -86,6 +86,9 @@ class ViewController: UIViewController {
     
     @objc func btnTask2Selected() {
         print("Task 2 completed")
+        
+        let newVC = DateDisplayViewController()
+        navigationController?.pushViewController(newVC, animated: true)
     }
     
     @objc func btnTask3Selected() {

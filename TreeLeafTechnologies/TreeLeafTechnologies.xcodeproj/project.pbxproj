@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A227F1D2B407FC800A344E9 /* DateDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A227F1C2B407FC800A344E9 /* DateDisplayViewController.swift */; };
+		6A227F212B40895E00A344E9 /* DateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A227F202B40895E00A344E9 /* DateCollectionViewCell.swift */; };
 		6AF8AA0D2B3E82A6008FC93E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF8AA0C2B3E82A6008FC93E /* AppDelegate.swift */; };
 		6AF8AA0F2B3E82A6008FC93E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF8AA0E2B3E82A6008FC93E /* SceneDelegate.swift */; };
 		6AF8AA112B3E82A6008FC93E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF8AA102B3E82A6008FC93E /* ViewController.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6A227F1C2B407FC800A344E9 /* DateDisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateDisplayViewController.swift; sourceTree = "<group>"; };
+		6A227F202B40895E00A344E9 /* DateCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCollectionViewCell.swift; sourceTree = "<group>"; };
 		6AF8AA092B3E82A6008FC93E /* TreeLeafTechnologies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TreeLeafTechnologies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AF8AA0C2B3E82A6008FC93E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6AF8AA0E2B3E82A6008FC93E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +80,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A227F1B2B407FA400A344E9 /* Task2 */ = {
+			isa = PBXGroup;
+			children = (
+				6A227F1E2B40878200A344E9 /* CollectionViewCells */,
+				6A227F1F2B4087F000A344E9 /* ViewController */,
+			);
+			path = Task2;
+			sourceTree = "<group>";
+		};
+		6A227F1E2B40878200A344E9 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				6A227F202B40895E00A344E9 /* DateCollectionViewCell.swift */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		6A227F1F2B4087F000A344E9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6A227F1C2B407FC800A344E9 /* DateDisplayViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
 		6AF8AA002B3E82A6008FC93E = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +128,7 @@
 		6AF8AA0B2B3E82A6008FC93E /* TreeLeafTechnologies */ = {
 			isa = PBXGroup;
 			children = (
+				6A227F1B2B407FA400A344E9 /* Task2 */,
 				6AF8AA3E2B3E831B008FC93E /* Utilities */,
 				6AF8AA0C2B3E82A6008FC93E /* AppDelegate.swift */,
 				6AF8AA0E2B3E82A6008FC93E /* SceneDelegate.swift */,
@@ -269,6 +299,8 @@
 				6AF8AA402B3E8327008FC93E /* Colors.swift in Sources */,
 				6AF8AA0D2B3E82A6008FC93E /* AppDelegate.swift in Sources */,
 				6AF8AA0F2B3E82A6008FC93E /* SceneDelegate.swift in Sources */,
+				6A227F212B40895E00A344E9 /* DateCollectionViewCell.swift in Sources */,
+				6A227F1D2B407FC800A344E9 /* DateDisplayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
