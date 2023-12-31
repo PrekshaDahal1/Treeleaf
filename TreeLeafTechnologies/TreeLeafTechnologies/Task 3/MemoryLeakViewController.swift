@@ -8,10 +8,11 @@
 import UIKit
 
 class MemoryLeakViewController: UIViewController {
-    
+    //MARK: - Variables
     var name = "Preksha"
     var email = "dahalpreksha88@gmail.com"
-    
+
+    //MARK: - UI Components
     lazy var lblName: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
@@ -47,13 +48,15 @@ class MemoryLeakViewController: UIViewController {
         return stack
     }()
     
+    //MARK: - ViewDidLoad
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
         setupUI()
-        jpt()
+        memoryleak()
     }
     
+    //MARK: - Autolayout of UI Components
     func setupUI() {
         autoLayoutForStackView()
     }
@@ -73,15 +76,16 @@ class MemoryLeakViewController: UIViewController {
             print("Name: \(name) \n Email:\(email)")
         }
         
-        func jpt() {
+    
+    //MARK: - Memory Leak Implementation
+        func memoryleak() {
             userInfo()
             NotificationCenter.default.addObserver(forName: NSNotification.Name(rawValue: "called"), object: nil, queue: .main) { _ in
                 self.userInfo()
             }
         }
-        
+    //MARK: - Memory Deallocation
         deinit {
             print("Memory released")
         }
     }
-
