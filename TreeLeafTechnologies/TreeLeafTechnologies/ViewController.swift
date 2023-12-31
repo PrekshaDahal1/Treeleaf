@@ -90,6 +90,9 @@ class ViewController: UIViewController {
     
     @objc func btnTask3Selected() {
         print("Task 3 completed")
+        
+        let newVC = MemoryLeakViewController()
+        navigationController?.pushViewController(newVC, animated: true)
     }
     
     @objc func btnTask4Selected() {
