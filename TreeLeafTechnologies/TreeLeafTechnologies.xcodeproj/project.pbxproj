@@ -18,9 +18,9 @@
 		6AF8AA302B3E82A8008FC93E /* TreeLeafTechnologiesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF8AA2F2B3E82A8008FC93E /* TreeLeafTechnologiesUITestsLaunchTests.swift */; };
 		6AF8AA402B3E8327008FC93E /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF8AA3F2B3E8327008FC93E /* Colors.swift */; };
 		6AF8AA452B3E8BEB008FC93E /* JokesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF8AA442B3E8BEB008FC93E /* JokesViewController.swift */; };
-		B186ED3634F502BA8264F598 /* Pods_TreeLeafTechnologies_TreeLeafTechnologiesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECCE7FAB78067C0B7B91A506 /* Pods_TreeLeafTechnologies_TreeLeafTechnologiesUITests.framework */; };
-		C7102559635F089CA6C6DADD /* Pods_TreeLeafTechnologies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9CCE914C1583EAA7A809032 /* Pods_TreeLeafTechnologies.framework */; };
-		D0A9658D22A069BA7C72F1F4 /* Pods_TreeLeafTechnologiesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88DBD100D29271699564680B /* Pods_TreeLeafTechnologiesTests.framework */; };
+		6BA78B1E2F6A620D419837F4 /* Pods_TreeLeafTechnologies_TreeLeafTechnologiesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4272A8DE302080000CD2849 /* Pods_TreeLeafTechnologies_TreeLeafTechnologiesUITests.framework */; };
+		AA4A274D49BBBBBB7BF5FAF8 /* Pods_TreeLeafTechnologies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA759AC70E0D3307633A34C1 /* Pods_TreeLeafTechnologies.framework */; };
+		EDFF2DCE06138AE46E7B7F23 /* Pods_TreeLeafTechnologiesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0F8A9650019A226D7DD00EF /* Pods_TreeLeafTechnologiesTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,10 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		33AA31511C1AFB79A2BD81E2 /* Pods-TreeLeafTechnologies-TreeLeafTechnologiesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreeLeafTechnologies-TreeLeafTechnologiesUITests.release.xcconfig"; path = "Target Support Files/Pods-TreeLeafTechnologies-TreeLeafTechnologiesUITests/Pods-TreeLeafTechnologies-TreeLeafTechnologiesUITests.release.xcconfig"; sourceTree = "<group>"; };
-		42B144A60C8BB3F9D7DA4EB0 /* Pods-TreeLeafTechnologiesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreeLeafTechnologiesTests.release.xcconfig"; path = "Target Support Files/Pods-TreeLeafTechnologiesTests/Pods-TreeLeafTechnologiesTests.release.xcconfig"; sourceTree = "<group>"; };
-		63166FAE8BFDFCDFA5D164E0 /* Pods-TreeLeafTechnologies.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreeLeafTechnologies.debug.xcconfig"; path = "Target Support Files/Pods-TreeLeafTechnologies/Pods-TreeLeafTechnologies.debug.xcconfig"; sourceTree = "<group>"; };
-		6865FC4C86A06988D74DA6C3 /* Pods-TreeLeafTechnologies-TreeLeafTechnologiesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreeLeafTechnologies-TreeLeafTechnologiesUITests.debug.xcconfig"; path = "Target Support Files/Pods-TreeLeafTechnologies-TreeLeafTechnologiesUITests/Pods-TreeLeafTechnologies-TreeLeafTechnologiesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4D6E93581429F73AF8567314 /* Pods-TreeLeafTechnologies-TreeLeafTechnologiesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreeLeafTechnologies-TreeLeafTechnologiesUITests.release.xcconfig"; path = "Target Support Files/Pods-TreeLeafTechnologies-TreeLeafTechnologiesUITests/Pods-TreeLeafTechnologies-TreeLeafTechnologiesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5223D8AC36BFF1C242E89B54 /* Pods-TreeLeafTechnologiesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreeLeafTechnologiesTests.release.xcconfig"; path = "Target Support Files/Pods-TreeLeafTechnologiesTests/Pods-TreeLeafTechnologiesTests.release.xcconfig"; sourceTree = "<group>"; };
+		5BF5C2F689EE6E02A6A76D64 /* Pods-TreeLeafTechnologies.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreeLeafTechnologies.release.xcconfig"; path = "Target Support Files/Pods-TreeLeafTechnologies/Pods-TreeLeafTechnologies.release.xcconfig"; sourceTree = "<group>"; };
 		6AD951F92B3EAF9F00B98C26 /* JokesApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesApiResponse.swift; sourceTree = "<group>"; };
 		6AF8AA092B3E82A6008FC93E /* TreeLeafTechnologies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TreeLeafTechnologies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AF8AA0C2B3E82A6008FC93E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -60,11 +59,12 @@
 		6AF8AA2F2B3E82A8008FC93E /* TreeLeafTechnologiesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeLeafTechnologiesUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6AF8AA3F2B3E8327008FC93E /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		6AF8AA442B3E8BEB008FC93E /* JokesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesViewController.swift; sourceTree = "<group>"; };
-		88DBD100D29271699564680B /* Pods_TreeLeafTechnologiesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TreeLeafTechnologiesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4F728B96AFE3F4569A13943 /* Pods-TreeLeafTechnologies.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreeLeafTechnologies.release.xcconfig"; path = "Target Support Files/Pods-TreeLeafTechnologies/Pods-TreeLeafTechnologies.release.xcconfig"; sourceTree = "<group>"; };
-		AB36B2C1F048B2EEF224D198 /* Pods-TreeLeafTechnologiesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreeLeafTechnologiesTests.debug.xcconfig"; path = "Target Support Files/Pods-TreeLeafTechnologiesTests/Pods-TreeLeafTechnologiesTests.debug.xcconfig"; sourceTree = "<group>"; };
-		B9CCE914C1583EAA7A809032 /* Pods_TreeLeafTechnologies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TreeLeafTechnologies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ECCE7FAB78067C0B7B91A506 /* Pods_TreeLeafTechnologies_TreeLeafTechnologiesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TreeLeafTechnologies_TreeLeafTechnologiesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B3D422F791D520C0DA1D578 /* Pods-TreeLeafTechnologies-TreeLeafTechnologiesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreeLeafTechnologies-TreeLeafTechnologiesUITests.debug.xcconfig"; path = "Target Support Files/Pods-TreeLeafTechnologies-TreeLeafTechnologiesUITests/Pods-TreeLeafTechnologies-TreeLeafTechnologiesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A0F8A9650019A226D7DD00EF /* Pods_TreeLeafTechnologiesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TreeLeafTechnologiesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4272A8DE302080000CD2849 /* Pods_TreeLeafTechnologies_TreeLeafTechnologiesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TreeLeafTechnologies_TreeLeafTechnologiesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF07DBD63AA2733E94D05C02 /* Pods-TreeLeafTechnologiesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreeLeafTechnologiesTests.debug.xcconfig"; path = "Target Support Files/Pods-TreeLeafTechnologiesTests/Pods-TreeLeafTechnologiesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D5285DDADE6E33E587E8777C /* Pods-TreeLeafTechnologies.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreeLeafTechnologies.debug.xcconfig"; path = "Target Support Files/Pods-TreeLeafTechnologies/Pods-TreeLeafTechnologies.debug.xcconfig"; sourceTree = "<group>"; };
+		EA759AC70E0D3307633A34C1 /* Pods_TreeLeafTechnologies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TreeLeafTechnologies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7102559635F089CA6C6DADD /* Pods_TreeLeafTechnologies.framework in Frameworks */,
+				AA4A274D49BBBBBB7BF5FAF8 /* Pods_TreeLeafTechnologies.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,7 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0A9658D22A069BA7C72F1F4 /* Pods_TreeLeafTechnologiesTests.framework in Frameworks */,
+				EDFF2DCE06138AE46E7B7F23 /* Pods_TreeLeafTechnologiesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B186ED3634F502BA8264F598 /* Pods_TreeLeafTechnologies_TreeLeafTechnologiesUITests.framework in Frameworks */,
+				6BA78B1E2F6A620D419837F4 /* Pods_TreeLeafTechnologies_TreeLeafTechnologiesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,12 +98,12 @@
 		571357590DDCA9383A291C08 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				63166FAE8BFDFCDFA5D164E0 /* Pods-TreeLeafTechnologies.debug.xcconfig */,
-				A4F728B96AFE3F4569A13943 /* Pods-TreeLeafTechnologies.release.xcconfig */,
-				6865FC4C86A06988D74DA6C3 /* Pods-TreeLeafTechnologies-TreeLeafTechnologiesUITests.debug.xcconfig */,
-				33AA31511C1AFB79A2BD81E2 /* Pods-TreeLeafTechnologies-TreeLeafTechnologiesUITests.release.xcconfig */,
-				AB36B2C1F048B2EEF224D198 /* Pods-TreeLeafTechnologiesTests.debug.xcconfig */,
-				42B144A60C8BB3F9D7DA4EB0 /* Pods-TreeLeafTechnologiesTests.release.xcconfig */,
+				D5285DDADE6E33E587E8777C /* Pods-TreeLeafTechnologies.debug.xcconfig */,
+				5BF5C2F689EE6E02A6A76D64 /* Pods-TreeLeafTechnologies.release.xcconfig */,
+				9B3D422F791D520C0DA1D578 /* Pods-TreeLeafTechnologies-TreeLeafTechnologiesUITests.debug.xcconfig */,
+				4D6E93581429F73AF8567314 /* Pods-TreeLeafTechnologies-TreeLeafTechnologiesUITests.release.xcconfig */,
+				BF07DBD63AA2733E94D05C02 /* Pods-TreeLeafTechnologiesTests.debug.xcconfig */,
+				5223D8AC36BFF1C242E89B54 /* Pods-TreeLeafTechnologiesTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -116,7 +116,7 @@
 				6AF8AA2C2B3E82A8008FC93E /* TreeLeafTechnologiesUITests */,
 				6AF8AA0A2B3E82A6008FC93E /* Products */,
 				571357590DDCA9383A291C08 /* Pods */,
-				99059876E6D5D05C02B1338F /* Frameworks */,
+				C2E63891F3087F7253C86489 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -179,12 +179,12 @@
 			path = Task1;
 			sourceTree = "<group>";
 		};
-		99059876E6D5D05C02B1338F /* Frameworks */ = {
+		C2E63891F3087F7253C86489 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B9CCE914C1583EAA7A809032 /* Pods_TreeLeafTechnologies.framework */,
-				ECCE7FAB78067C0B7B91A506 /* Pods_TreeLeafTechnologies_TreeLeafTechnologiesUITests.framework */,
-				88DBD100D29271699564680B /* Pods_TreeLeafTechnologiesTests.framework */,
+				EA759AC70E0D3307633A34C1 /* Pods_TreeLeafTechnologies.framework */,
+				B4272A8DE302080000CD2849 /* Pods_TreeLeafTechnologies_TreeLeafTechnologiesUITests.framework */,
+				A0F8A9650019A226D7DD00EF /* Pods_TreeLeafTechnologiesTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -196,11 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6AF8AA332B3E82A8008FC93E /* Build configuration list for PBXNativeTarget "TreeLeafTechnologies" */;
 			buildPhases = (
-				2E28719D3DC6942C8B20CCF2 /* [CP] Check Pods Manifest.lock */,
+				8FA3B8B6455B5E5D4A143248 /* [CP] Check Pods Manifest.lock */,
 				6AF8AA052B3E82A6008FC93E /* Sources */,
 				6AF8AA062B3E82A6008FC93E /* Frameworks */,
 				6AF8AA072B3E82A6008FC93E /* Resources */,
-				D19E830B2FA745640E81E988 /* [CP] Embed Pods Frameworks */,
+				79D3BBAB4DC0417CAB1F5819 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -215,7 +215,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6AF8AA362B3E82A8008FC93E /* Build configuration list for PBXNativeTarget "TreeLeafTechnologiesTests" */;
 			buildPhases = (
-				CDAD7E21BE8BB47C061722FC /* [CP] Check Pods Manifest.lock */,
+				CE6E0DDBDC76CE504594AFBD /* [CP] Check Pods Manifest.lock */,
 				6AF8AA1B2B3E82A8008FC93E /* Sources */,
 				6AF8AA1C2B3E82A8008FC93E /* Frameworks */,
 				6AF8AA1D2B3E82A8008FC93E /* Resources */,
@@ -234,11 +234,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6AF8AA392B3E82A8008FC93E /* Build configuration list for PBXNativeTarget "TreeLeafTechnologiesUITests" */;
 			buildPhases = (
-				7D8018CA20FE418253DBC3BC /* [CP] Check Pods Manifest.lock */,
+				D74DA4329104BE178F3E7D14 /* [CP] Check Pods Manifest.lock */,
 				6AF8AA252B3E82A8008FC93E /* Sources */,
 				6AF8AA262B3E82A8008FC93E /* Frameworks */,
 				6AF8AA272B3E82A8008FC93E /* Resources */,
-				F7877EBD1604B2A5D506B846 /* [CP] Embed Pods Frameworks */,
+				5A73BA7CF880816EA4D0F9FF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -320,7 +320,41 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2E28719D3DC6942C8B20CCF2 /* [CP] Check Pods Manifest.lock */ = {
+		5A73BA7CF880816EA4D0F9FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TreeLeafTechnologies-TreeLeafTechnologiesUITests/Pods-TreeLeafTechnologies-TreeLeafTechnologiesUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TreeLeafTechnologies-TreeLeafTechnologiesUITests/Pods-TreeLeafTechnologies-TreeLeafTechnologiesUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TreeLeafTechnologies-TreeLeafTechnologiesUITests/Pods-TreeLeafTechnologies-TreeLeafTechnologiesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79D3BBAB4DC0417CAB1F5819 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TreeLeafTechnologies/Pods-TreeLeafTechnologies-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TreeLeafTechnologies/Pods-TreeLeafTechnologies-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TreeLeafTechnologies/Pods-TreeLeafTechnologies-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FA3B8B6455B5E5D4A143248 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -342,29 +376,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7D8018CA20FE418253DBC3BC /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TreeLeafTechnologies-TreeLeafTechnologiesUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CDAD7E21BE8BB47C061722FC /* [CP] Check Pods Manifest.lock */ = {
+		CE6E0DDBDC76CE504594AFBD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -386,38 +398,26 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D19E830B2FA745640E81E988 /* [CP] Embed Pods Frameworks */ = {
+		D74DA4329104BE178F3E7D14 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TreeLeafTechnologies/Pods-TreeLeafTechnologies-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TreeLeafTechnologies/Pods-TreeLeafTechnologies-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TreeLeafTechnologies-TreeLeafTechnologiesUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TreeLeafTechnologies/Pods-TreeLeafTechnologies-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F7877EBD1604B2A5D506B846 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TreeLeafTechnologies-TreeLeafTechnologiesUITests/Pods-TreeLeafTechnologies-TreeLeafTechnologiesUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TreeLeafTechnologies-TreeLeafTechnologiesUITests/Pods-TreeLeafTechnologies-TreeLeafTechnologiesUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TreeLeafTechnologies-TreeLeafTechnologiesUITests/Pods-TreeLeafTechnologies-TreeLeafTechnologiesUITests-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -601,7 +601,7 @@
 		};
 		6AF8AA342B3E82A8008FC93E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 63166FAE8BFDFCDFA5D164E0 /* Pods-TreeLeafTechnologies.debug.xcconfig */;
+			baseConfigurationReference = D5285DDADE6E33E587E8777C /* Pods-TreeLeafTechnologies.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -628,7 +628,7 @@
 		};
 		6AF8AA352B3E82A8008FC93E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4F728B96AFE3F4569A13943 /* Pods-TreeLeafTechnologies.release.xcconfig */;
+			baseConfigurationReference = 5BF5C2F689EE6E02A6A76D64 /* Pods-TreeLeafTechnologies.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -655,7 +655,7 @@
 		};
 		6AF8AA372B3E82A8008FC93E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AB36B2C1F048B2EEF224D198 /* Pods-TreeLeafTechnologiesTests.debug.xcconfig */;
+			baseConfigurationReference = BF07DBD63AA2733E94D05C02 /* Pods-TreeLeafTechnologiesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -675,7 +675,7 @@
 		};
 		6AF8AA382B3E82A8008FC93E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 42B144A60C8BB3F9D7DA4EB0 /* Pods-TreeLeafTechnologiesTests.release.xcconfig */;
+			baseConfigurationReference = 5223D8AC36BFF1C242E89B54 /* Pods-TreeLeafTechnologiesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -695,7 +695,7 @@
 		};
 		6AF8AA3A2B3E82A8008FC93E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6865FC4C86A06988D74DA6C3 /* Pods-TreeLeafTechnologies-TreeLeafTechnologiesUITests.debug.xcconfig */;
+			baseConfigurationReference = 9B3D422F791D520C0DA1D578 /* Pods-TreeLeafTechnologies-TreeLeafTechnologiesUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -713,7 +713,7 @@
 		};
 		6AF8AA3B2B3E82A8008FC93E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33AA31511C1AFB79A2BD81E2 /* Pods-TreeLeafTechnologies-TreeLeafTechnologiesUITests.release.xcconfig */;
+			baseConfigurationReference = 4D6E93581429F73AF8567314 /* Pods-TreeLeafTechnologies-TreeLeafTechnologiesUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
